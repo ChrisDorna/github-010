@@ -182,6 +182,9 @@ namespace neopixel {
         //% parts="neopixel" advanced=true
 		/* AAPASSING CODEKIDS 9-11-2019 =========================================================*/
         setPixelColor(pixeloffset: number, rgb: number): void {
+			if (pixeloffset = 2){
+				pixeloffset == 1;
+			}
             this.setPixelRGB(pixeloffset >> 0, rgb >> 0);
         }
 
